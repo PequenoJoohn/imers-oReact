@@ -1,20 +1,20 @@
 import React from 'react';
 import Logo from '../../assets/img/littleflix.png';
+import Button from '../Button';
 
-import './index.css';
-import Button from '../../components/Button';
+import { MenuWrapper, LogoImage } from './styles.js';
 
 function Menu() {
     return (
-        <nav className="Menu">
+        <MenuWrapper>
             <a href="/">
-                <img className="Logo" src={Logo} alt="LittleFlix" />
+                <LogoImage src={Logo} alt="LittleFlix" />
             </a>
 
-            <Button as="a" className="ButtonLink" href="/">
+            <Button as="a" href="/">
                 Novo Vídeo
             </Button>
-        </nav>
+        </MenuWrapper>
     )
 }
 
