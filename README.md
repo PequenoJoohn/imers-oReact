@@ -1,3 +1,12 @@
+![image](public/demo.png)
+
+## Who use
+```
+$ git clone https://github.com/PequenoJoohn/imersaoReact.git
+$ cd imersaoReact
+$ yarn or npm install
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
