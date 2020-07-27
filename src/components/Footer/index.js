@@ -14,6 +14,7 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <p>Desenvolvido por <a href="https://www.linkedin.com/in/jonathanlm/">Jonathan Matos</a></p>
     </FooterBase>
   );
 }

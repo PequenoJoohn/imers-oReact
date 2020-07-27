@@ -180,6 +180,44 @@
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
       ]
+    },
+    {
+      "titulo": "Músicas",
+      "cor": "#552235",
+      "link_extra": {
+        "text": "Músicas para curtir no dia a dia",
+        "url": "https://littleflix.netlify.com"
+      },
+      "videos": [
+        {
+          "titulo": "M4Uz - Step Forward (Official Video)",
+          "url": "https://youtu.be/3MQFwk56Asw&feature=youtu.be"
+        },
+        {
+          "titulo": "Underwater - The Unknown",
+          "url": "https://youtu.be/O0Dtoh8YREk&feature=youtu.be"
+        },
+        {
+          "titulo": "TiMO ODV - Dancing Again",
+          "url": "https://youtu.be/A0vOrrTws7U"
+        },
+        {
+          "titulo": "Vintage Culture, Adam K - Deep Inside of Me feat. MKLA (Official Video)",
+          "url": "https://youtu.be/Akblh02CRns&feature=youtu.be"
+        },
+        {
+          "titulo": "Neelix - Bang Bang (Official Music Video)",
+          "url": "https://youtu.be/Bj0306ymivU&feature=youtu.be"
+        },
+        {
+          "titulo": "Chet Faker - Talk Is Cheap [Live At The Enmore]",
+          "url": "https://www.youtube.com/watch?v=aQZDyyIyQMA&feature=youtu.be"
+        },
+        {
+          "titulo": "Funkin Matt - Elephant",
+          "url": "https://youtu.be/YksyO2jmQjs&feature=youtu.be"
+        }
+      ]
     }
   ]
 }
