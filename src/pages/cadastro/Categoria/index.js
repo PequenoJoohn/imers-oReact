@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import api from '../../../services';
 
-import { Title, List } from './styles';
+import { Title, List, Button } from './styles';
 
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
@@ -32,32 +31,33 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    api.get('/categorias', async (response) => {
-      const resposta = await response.json();
-      setCategorias([...resposta]);
-    });
-
-    // fetch(URL)
-    //   .then({
-    //   });
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Eletro House',
-    //       descricao: 'Si num tem leite então bota uma pinga aí cumpadi! ',
-    //       cor: '#000000',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Rock',
-    //       descricao: 'Si num tem leite então bota uma pinga aí cumpadi! ',
-    //       cor: '#000000',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://api-soundflix.herokuapp.com/categorias';
+    fetch(URL)
+      .then(async (response) => {
+        const resposta = await response.json();
+        setCategorias([...resposta]);
+      });
   }, []);
+
+  // setTimeout(() => {
+  //   setCategorias([
+  //     ...categorias,
+  //     {
+  //       id: 1,
+  //       nome: 'Eletro House',
+  //       descricao: 'Si num tem leite então bota uma pinga aí cumpadi! ',
+  //       cor: '#000000',
+  //     },
+  //     {
+  //       id: 2,
+  //       nome: 'Rock',
+  //       descricao: 'Si num tem leite então bota uma pinga aí cumpadi! ',
+  //       cor: '#000000',
+  //     },
+  //   ]);
+  // }, 4 * 1000);
 
   return (
     <PageDefault>
@@ -97,28 +97,22 @@ function CadastroCategoria() {
           onChange={handleChangeValues}
         />
 
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
 
       </form>
 
       {categorias.length === 0 && (
-        <div>
-          Loading...
-        </div>
+      <div>
+        Loading...
+      </div>
       )}
 
       <List>
-        {categorias.map((categoria, index) => (
-          <li key={(categoria, index)}>
+        {categorias.map((categoria) => (
+          <li key={`${categoria}`}>
             Categoria:
             {' '}
             {categoria.name}
-            Descrição:
-            {' '}
-            {categoria.description}
-            Cor:
-            {' '}
-            {categoria.color}
           </li>
         ))}
       </List>
