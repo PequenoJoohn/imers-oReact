@@ -6,8 +6,8 @@ import Logo from '../../assets/img/littleflix.png';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src={Logo} alt="Logo Alura" />
+      <a href="/">
+        <img src={Logo} alt="Logo LittleFlix" />
       </a>
       <p>
         Orgulhosamente criado durante a
