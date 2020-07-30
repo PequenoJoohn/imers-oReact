@@ -8,7 +8,6 @@ export const Title = styled.h1`
 
 export const Form = styled.form`
 
-  /* background-color: darkkhaki; */
   display: flex;
   flex-direction: column;
   
@@ -29,7 +28,6 @@ export const Form = styled.form`
 
 export const List = styled.ul`
   list-style: none;
-  /* display: flex; */
 
   li {
     display: grid;

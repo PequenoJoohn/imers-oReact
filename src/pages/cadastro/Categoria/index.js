@@ -73,8 +73,8 @@ function CadastroCategoria() {
                 {categorias.map((categoria, index) => {
                     return (
                         <li key={`${categoria}${index}`}>
-                            Nome: {categoria.name}
-                            Categoria: {categoria.description}
+                            Categoria: {categoria.name}
+                            Descrição: {categoria.description}
                             Cor: {categoria.color}
                         </li>
                     )
