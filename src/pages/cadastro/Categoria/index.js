@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import api from '../../../services';
 
 import { Title, List } from './styles';
 
@@ -31,7 +32,14 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    console.log('Hello World');
+    api.get('/categorias', async (response) => {
+      const resposta = await response.json();
+      setCategorias([...resposta]);
+    });
+
+    // fetch(URL)
+    //   .then({
+    //   });
     // setTimeout(() => {
     //   setCategorias([
     //     ...categorias,
