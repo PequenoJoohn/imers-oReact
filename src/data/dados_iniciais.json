@@ -1,51 +1,51 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Eletronica",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#f7bb28",
       "link_extra": {
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O que um DJ faz quando não pode se apresentar em meio a pandemia? #VintageCulture",
+          "url": "https://www.youtube.com/watch?v=uWVeCycMQio"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "SAINt JHN - Roses (Imanbek Remix) (Official Music Video)",
+          "url": "https://youtu.be/2zToEPpFEN8"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Alok & Dynoro - On & On (Official Video)",
+          "url": "https://youtu.be/Crsc8HcGOeU"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Sickick - Kill Me Slowly (Official Video)",
+          "url": "https://youtu.be/YwCUEHoG4xk&feature=youtu.be"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Meduza x Becky Hill x Goodboys - Lose Control (Extended Mix)",
+          "url": "https://youtu.be/4iAteozuf-o&feature=youtu.be"
         },
         {
           "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "url": ""
         },
         {
           "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "url": ""
         },
         {
           "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "url": ""
         }
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Internacional",
+      "cor": "#f7bb28",
       "link_extra": {
         "text": "Cursos de Back End na Alura",
         "url": "https://www.alura.com.br/cursos-online-programacao"
@@ -74,16 +74,16 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Pop",
+      "cor": "#f7bb28",
       "link_extra": {
         "text": "Cursos de Data Science na Alura",
         "url": "https://www.alura.com.br/formacao-data-science"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Chet Faker - Talk Is Cheap [Live At The Enmore]",
+          "url": "https://www.youtube.com/watch?v=aQZDyyIyQMA&feature=youtu.be"
         },
         {
           "titulo": "O que é Data Science?",
@@ -100,8 +100,8 @@
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Brazillian Funk",
+      "cor": "#f7bb28",
       "videos": [
         {
           "titulo": "Interestellar",
@@ -122,8 +122,8 @@
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Chill",
+      "cor": "#f7bb28",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
@@ -152,8 +152,8 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Rock",
+      "cor": "#f7bb28",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
@@ -182,8 +182,8 @@
       ]
     },
     {
-      "titulo": "Músicas",
-      "cor": "#552235",
+      "titulo": "K-Pop",
+      "cor": "#f7bb28",
       "link_extra": {
         "text": "Músicas para curtir no dia a dia",
         "url": "https://littleflix.netlify.com"
@@ -210,10 +210,6 @@
           "url": "https://youtu.be/Bj0306ymivU&feature=youtu.be"
         },
         {
-          "titulo": "Chet Faker - Talk Is Cheap [Live At The Enmore]",
-          "url": "https://www.youtube.com/watch?v=aQZDyyIyQMA&feature=youtu.be"
-        },
-        {
           "titulo": "Funkin Matt - Elephant",
           "url": "https://youtu.be/YksyO2jmQjs&feature=youtu.be"
         },
@@ -224,10 +220,6 @@
         {
           "titulo": "Meduza x Becky Hill x Goodboys - Lose Control (Extended Mix)",
           "url": "https://youtu.be/4iAteozuf-o&feature=youtu.be"
-        },
-        {
-          "titulo": "Sickick - Kill Me Slowly (Official Video)",
-          "url": "https://youtu.be/YwCUEHoG4xk&feature=youtu.be"
         }
       ]
     }

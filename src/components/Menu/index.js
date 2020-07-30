@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/img/littleflix.png';
+import Logo from '../../assets/img/soundflix.png';
 import Button from '../Button';
 
 import { MenuWrapper, LogoImage } from './styles.js';
