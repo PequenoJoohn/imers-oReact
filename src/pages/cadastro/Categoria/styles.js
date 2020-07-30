@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-  --bodyPaddingTop: 94px;
-  padding-top: var(--bodyPaddingTop);
+  padding-top: 60px;
   width:100%;
+
+  @media(max-width: 800px) {
+      padding-top: 0px;
+  }
 `;
 
 export const Form = styled.form`
@@ -56,10 +59,10 @@ export const Button = styled.button`
     }
     
     @media(max-width: 800px) {
-        position: fixed;
         left:0;
         bottom:0;
         right:0;
+        width:100%;
         background-color: var(--primary);
         color: var(--white);
         text-align: center;

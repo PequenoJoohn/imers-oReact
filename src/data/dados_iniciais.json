@@ -5,8 +5,8 @@
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#f7bb28",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
@@ -30,16 +30,28 @@
           "url": "https://youtu.be/4iAteozuf-o&feature=youtu.be"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": ""
+          "titulo": "Alok & IRO - Table For 2 (Official Music Video)",
+          "url": "https://youtu.be/EH6Xkg-UUog"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": ""
+          "titulo": "Regard - Ride It (Official Video)",
+          "url": "https://youtu.be/ucVUEmjKsko"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": ""
+          "titulo": "Riton x Oliver Heldens - Turn Me On ft. Vula (Official Music Video)",
+          "url": "https://youtu.be/Ifq4NQWwVpg"
+        },
+        {
+          "titulo": "TiMO ODV - Dancing Again",
+          "url": "https://youtu.be/A0vOrrTws7U"
+        },
+        {
+          "titulo": "Vintage Culture, Adam K - Deep Inside of Me feat. MKLA (Official Video)",
+          "url": "https://youtu.be/Akblh02CRns&feature=youtu.be"
+        },
+        {
+          "titulo": "Neelix - Bang Bang (Official Music Video)",
+          "url": "https://youtu.be/Bj0306ymivU&feature=youtu.be"
         }
       ]
     },
@@ -47,29 +59,49 @@
       "titulo": "Internacional",
       "cor": "#f7bb28",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Dua Lipa - Break My Heart (Official Video)",
+          "url": "https://youtu.be/Nj2U6rhnucI"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Doja Cat - Say So (Official Video)",
+          "url": "https://youtu.be/pok8H_KF1FA"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Sam Smith, Demi Lovato - I'm Ready",
+          "url": "https://youtu.be/glD1M418bC0"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "The Weeknd - Blinding Lights",
+          "url": "https://youtu.be/4NRXx6U8ABQ"
         },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Dua Lipa - Don't Start Now (Official Music Video)",
+          "url": "https://youtu.be/oygrmJFKYZY"
+        },
+        {
+          "titulo": "Justin Bieber - Intentions (Official Video (Short Version)) ft. Quavo",
+          "url": "https://youtu.be/3AyMjyHu1bA"
+        },
+        {
+          "titulo": "Selena Gomez - Boyfriend",
+          "url": "https://youtu.be/tSIk1QvIM2E"
+        },
+        {
+          "titulo": "Justin Bieber - Yummy (Official Video)",
+          "url": "https://youtu.be/8EJ3zbKTWQ8"
+        },
+        {
+          "titulo": "Lewis Capaldi - Someone You Loved",
+          "url": "https://youtu.be/zABLecsR5UE"
+        },
+        {
+          "titulo": "Shawn Mendes, Camila Cabello - Señorita",
+          "url": "https://youtu.be/Pkh8UtuejGw"
         }
       ]
     },
@@ -196,18 +228,6 @@
         {
           "titulo": "Underwater - The Unknown",
           "url": "https://youtu.be/O0Dtoh8YREk&feature=youtu.be"
-        },
-        {
-          "titulo": "TiMO ODV - Dancing Again",
-          "url": "https://youtu.be/A0vOrrTws7U"
-        },
-        {
-          "titulo": "Vintage Culture, Adam K - Deep Inside of Me feat. MKLA (Official Video)",
-          "url": "https://youtu.be/Akblh02CRns&feature=youtu.be"
-        },
-        {
-          "titulo": "Neelix - Bang Bang (Official Music Video)",
-          "url": "https://youtu.be/Bj0306ymivU&feature=youtu.be"
         },
         {
           "titulo": "Funkin Matt - Elephant",

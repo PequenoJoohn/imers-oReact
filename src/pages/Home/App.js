@@ -30,12 +30,10 @@ function Home() {
       />
 
       <Carousel
-        ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
 
       <Carousel
-        ignoreFirstVideo
         category={dadosIniciais.categorias[1]}
       />
 
@@ -44,7 +42,6 @@ function Home() {
       />
 
       <Carousel
-        ignoreFirstVideo
         category={dadosIniciais.categorias[3]}
       />
 
