@@ -3,7 +3,7 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
 import { Title, List } from './styles'
-import { FormField, FormTextArea } from '../../../components/FormField';
+import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
 
@@ -50,7 +50,7 @@ function CadastroCategoria() {
                     value={values.name}
                     onChange={handleChangeValues} />
 
-                <FormTextArea
+                <FormField
                     label="Descrição"
                     type="text"
                     name="description"
