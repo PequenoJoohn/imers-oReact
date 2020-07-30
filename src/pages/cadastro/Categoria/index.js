@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Title, List } from './styles';
@@ -29,6 +29,27 @@ function CadastroCategoria() {
       e.target.value,
     );
   }
+
+  useEffect(() => {
+    console.log('Hello World');
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       nome: 'Eletro House',
+    //       descricao: 'Si num tem leite então bota uma pinga aí cumpadi! ',
+    //       cor: '#000000',
+    //     },
+    //     {
+    //       id: 2,
+    //       nome: 'Rock',
+    //       descricao: 'Si num tem leite então bota uma pinga aí cumpadi! ',
+    //       cor: '#000000',
+    //     },
+    //   ]);
+    // }, 4 * 1000);
+  }, []);
 
   return (
     <PageDefault>
@@ -71,6 +92,12 @@ function CadastroCategoria() {
         <button>Cadastrar</button>
 
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
 
       <List>
         {categorias.map((categoria, index) => (
