@@ -26,7 +26,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Livestreams é a melhor solução?"}
+        videoDescription="Livestreams é a melhor solução?"
       />
 
       <Carousel
@@ -36,23 +36,29 @@ function Home() {
 
       <Carousel
         ignoreFirstVideo
-        category={dadosIniciais.categorias[1]} />
+        category={dadosIniciais.categorias[1]}
+      />
 
       <Carousel
-        category={dadosIniciais.categorias[2]} />
+        category={dadosIniciais.categorias[2]}
+      />
 
       <Carousel
         ignoreFirstVideo
-        category={dadosIniciais.categorias[3]} />
+        category={dadosIniciais.categorias[3]}
+      />
 
       <Carousel
-        category={dadosIniciais.categorias[4]} />
+        category={dadosIniciais.categorias[4]}
+      />
 
       <Carousel
-        category={dadosIniciais.categorias[5]} />
+        category={dadosIniciais.categorias[5]}
+      />
 
       <Carousel
-        category={dadosIniciais.categorias[6]} />
+        category={dadosIniciais.categorias[6]}
+      />
 
       <Footer />
 

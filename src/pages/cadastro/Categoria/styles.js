@@ -4,7 +4,7 @@ export const Title = styled.h1`
   --bodyPaddingTop: 94px;
   padding-top: var(--bodyPaddingTop);
   width:100%;
-`
+`;
 
 export const Form = styled.form`
 
