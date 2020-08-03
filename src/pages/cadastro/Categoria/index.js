@@ -5,6 +5,7 @@ import { Title, List, Button } from './styles';
 
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const initialState = {
@@ -13,22 +14,9 @@ function CadastroCategoria() {
     color: '#000',
   };
 
-  const [values, setValues] = useState(initialState);
+  const { handleChangeValues, values, clearForm } = useForm(initialState);
+
   const [categorias, setCategorias] = useState([]);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChangeValues(e) {
-    setValue(
-      e.target.getAttribute('name'),
-      e.target.value,
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -69,7 +57,7 @@ function CadastroCategoria() {
           ...categorias,
           values,
         ]);
-        setValues(initialState);
+        clearForm();
       }}
       >
 
@@ -102,9 +90,9 @@ function CadastroCategoria() {
       </form>
 
       {categorias.length === 0 && (
-      <div>
-        Loading...
-      </div>
+        <div>
+          Loading...
+        </div>
       )}
 
       <List>
@@ -112,7 +100,7 @@ function CadastroCategoria() {
           <li key={`${categoria}`}>
             Categoria:
             {' '}
-            {categoria.name}
+            {categoria.titulo}
           </li>
         ))}
       </List>
